@@ -35,7 +35,7 @@ def primes_below(limit):
     if limit < 0:
         raise Exception('Limit must be positive.')
     elif not isinstance(limit,int):
-        raise Exception('Limit must be an int')
+            raise Exception('Limit must be an int')
 
     primes = []
 
