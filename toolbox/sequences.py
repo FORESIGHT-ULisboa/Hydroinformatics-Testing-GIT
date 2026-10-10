@@ -27,8 +27,6 @@ def fibonacci(n):
 
    # raise NotImplementedError("Student C: implement fibonacci()")
 
-fibonacci(3)
-
 def primes_below(limit):
     """Return every prime strictly below limit, as a sorted list."""
 
@@ -53,6 +51,4 @@ def primes_below(limit):
     return primes
                 
 #raise NotImplementedError("Student C: implement primes_below()")
-
-fibonacci(3)
 
