@@ -14,7 +14,7 @@ from .stats import describe
 from .text import word_counts
 from .sequences import fibonacci
 from .sequences import primes_below
-# from .validate import require_number
+from .validate import require_number
 # --- end wiring block ---------------------------------------------------
 
-__all__ = ['fibonacci', 'primes_below', 'word_counts']
+__all__ = ['fibonacci', 'primes_below', 'word_counts', 'require_number']
