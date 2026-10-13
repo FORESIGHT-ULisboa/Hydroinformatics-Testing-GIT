@@ -12,8 +12,9 @@ __version__ = "0.1.0"
 # --- wiring block: add exactly one line for your module -----------------
 from .stats import describe
 # from .text import word_counts
-# from .sequences import fibonacci
+from .sequences import fibonacci
+from .sequences import primes_below
 # from .validate import require_number
 # --- end wiring block ---------------------------------------------------
 
-__all__ = ["describe"]
+__all__ = ['fibonacci', 'primes_below']
