@@ -33,7 +33,7 @@ def primes_below(limit):
     if limit < 0:
         raise Exception('Limit must be positive.')
     elif not isinstance(limit,int):
-        raise Exception('Limit must be an int')
+        raise Exception('Limit must be an int') 
 
     primes = []
 
@@ -49,6 +49,8 @@ def primes_below(limit):
             primes.append(num)
 
     return primes
-                
+
+
+#fibonacci(3)
 #raise NotImplementedError("Student C: implement primes_below()")
 
